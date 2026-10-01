@@ -1,0 +1,26 @@
+
+        .boxOne {
+            color: teal;
+            border: 5px;
+            margin: 20px 30px 40px 50px;
+            padding: 40px;
+            /* margin-top: 20px;
+            margin-right: 70px;
+            margin-bottom: 50px;
+            margin-left: 70px; */
+            background-color: bisque;
+        }
+        .boxTwo{
+            background-color: peru;
+            border: 5px;
+            margin: 30px 40px 50px 60px;
+            padding: 50px;
+            
+        }
+        .boxThree{
+            background-color: tomato;
+            color: aliceblue;
+            border: 5px;
+            margin: 40px 50px 60px 70px;
+            padding: 60px;
+        }
