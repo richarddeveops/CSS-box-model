@@ -7,6 +7,7 @@
     <style>
         body{
             background-color: #f0f2f5;
+            display: flex;
         }
         *{
             margin: 0;
@@ -17,18 +18,68 @@
             text-align: center;
             background-color: white;
             border-radius: 7px;
+            width: 600px;
+        }
+        
+        .oNe button {
+            background-color: rgb(0, 0, 0);
+            width: calc(100% + 100px);
+            margin-left: -50px;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-right: -50px;
+            color: white;
+            margin-bottom: -50px;
+            border-radius: 0 0 7px 7px;
+        }
+
+        .tWo button {
+            background-color: rgb(0, 0, 0);
+            width: calc(100% + 200px);
+            margin-left: -100px;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-right: -100px;
+            color: white;
+            margin-bottom: -100px;
+            border-radius: 0 0 7px 7px;
+        }
+        .thRee button {
+            background-color: rgb(0, 0, 0);
+            width: calc(100% + 300px);
+            margin-left: -150px;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-right: -150px;
+            color: white;
+            margin-bottom: -150px;
+            border-radius: 0 0 7px 7px;
+        }
+        p {
+            font-size: 20px;
+            color: rgb(190, 188, 188);
+        }
+        h3 {
+            font-size: 24px;
+            color: gold;
         }
         .oNe {
             padding: 50px;
             margin: 150px;
+            height: 500px;
         }
         .tWo {
             padding: 100px;
             margin: 100px;
+            height: 520px;
         }
         .thRee {
             padding: 150px;
             margin: 50px;
+            height: 530px;
         }
     </style>
 </head>
@@ -37,16 +88,25 @@
         <img src="./images/image1.png" alt="">
         <h1>Product One</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dicta.</p>
+        <h2>$19.99</h2>
+        <h3>★★★★★</h3>
+        <button>Buy Now</button>
     </div>
     <div class="tWo">
         <img src="./images/image2.png" alt="">
         <h1>Product Two</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dicta.</p>
+        <h2>$29.99</h2>
+        <h3>★★★★<span style="color: antiquewhite;">★</span> </h3>
+        <button>Buy Now</button>
     </div>
     <div class="thRee">
         <img src="./images/image3.png" alt="">
         <h1>Product Three</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dicta.</p>
+        <h2>$39.99</h2>
+        <h3>★★★<span style="color: antiquewhite;">★★</span> </h3>
+        <button>Buy Now</button>
     </div>
 </body>
 </html>
